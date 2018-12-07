@@ -5,7 +5,7 @@
   tasks:
   - name: print var
     #shell: echo hello
-    shell: echo "{{ my_var }}"
+    shell: echo "{{ bgp_password }}"
     
     register: myVarOutput
 
